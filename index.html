@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Data Display</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">API Data Display</h1>
+
+        <div id="weather" class="mt-4 mb-4">
+            <h2>Weather</h2>
+            <div class="card">
+                <div class="card-body">
+                    <p id="weather-info">Loading weather data...</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="news" class="mt-4 mb-4">
+            <h2>News</h2>
+            <div class="card">
+                <div class="card-body">
+                    <ul id="news-list" class="list-unstyled">Loading news...</ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="jokes" class="mt-4 mb-4">
+            <h2>Jokes</h2>
+            <div class="card">
+                <div class="card-body">
+                    <p id="joke-text">Loading joke...</p>
+                    <button id="new-joke" class="btn btn-primary mt-3">Get New Joke</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
